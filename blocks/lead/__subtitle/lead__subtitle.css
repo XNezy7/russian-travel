@@ -6,6 +6,9 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 640px;
 }
 
 @media screen and (max-width: 320px) {
