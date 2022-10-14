@@ -14,7 +14,7 @@
 @media  screen and (max-width: 1280px) {
     .photo__travel{
         grid-template-columns: repeat(4, 284px);
-        grid-template-rows: repeat(3, 213px); 
+        grid-template-rows: repeat(3, 213px);
         grid-gap: 16px;
     }
 }

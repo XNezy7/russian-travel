@@ -9,8 +9,7 @@
     align-self: end;
     margin-bottom: 8px;
     margin-top: 80px;
-
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 @media screen and (max-width: 1280px) {
     .place__title{
@@ -18,7 +17,7 @@ color: #FFFFFF;
         font-style: normal;
         font-weight: 900;
         font-size: 72px;
-        line-height: 76px;             
+        line-height: 76px;        
         color: #FFFFFF;
     }
 }
@@ -30,7 +29,7 @@ color: #FFFFFF;
         font-style: normal;
         font-weight: 900;
         font-size: 72px;
-        line-height: 76px;        
+        line-height: 76px;     
         color: #FFFFFF;
     }
 }
@@ -52,7 +51,7 @@ color: #FFFFFF;
         font-style: normal;
         font-weight: 900;
         font-size: 32px;
-        line-height: 35px;      
+        line-height: 35px; 
         color: #FFFFFF;
         margin-left: 16px;
         margin-top: 25px;
