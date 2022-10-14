@@ -1,7 +1,7 @@
 .photo__travel{
     display: grid;
     grid-template-columns: repeat(4, 284px);
-    grid-template-rows: repeat(3, 213px); 
+    grid-template-rows: repeat(3, 213px);
     grid-gap: 16px;
     justify-content: center;
     padding: 0;
