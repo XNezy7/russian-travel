@@ -15,6 +15,13 @@
 
 @media screen and (max-width: 320px) {
     .cover__subtitle{
-        display: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 288px;
     }
 }
