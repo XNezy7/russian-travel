@@ -1,0 +1,17 @@
+.list__item{
+    list-style-type: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 320px) {
+    .list__item{
+        margin-left: 16px;
+        white-space: nowrap;
+    }
+}

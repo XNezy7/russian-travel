@@ -1,0 +1,44 @@
+.place__website__url{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height, or 100% */
+
+letter-spacing: 2px;
+grid-area: url;
+margin: 0;
+margin-top: 106px;
+color: #AAAAAA;
+}
+
+
+@media screen and (max-width: 768px) {
+    .place__website__url{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height, or 100% */
+
+letter-spacing: 2px;
+
+color: #AAAAAA;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__website__url{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        margin-top: 0;
+        letter-spacing: 2px;
+        
+        color: #AAAAAA;
+    }
+}
