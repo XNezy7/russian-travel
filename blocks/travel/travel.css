@@ -12,7 +12,7 @@
 }
 
 @media  screen and (max-width: 1280px) {
-    .photo__travel{
+    .travel{
         grid-template-columns: repeat(4, 284px);
         grid-template-rows: repeat(3, 213px);
         grid-gap: 16px;
@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .photo__travel{
+    .travel{
         grid-template-columns: repeat(3, 300px);
         grid-template-rows: repeat(4, 225px);
         grid-gap: 14px;
@@ -28,7 +28,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .photo__travel{
+    .travel{
         grid-template-columns: repeat(2, 352px);
         grid-template-rows: repeat(5, 264px);
         grid-gap: 16px;
@@ -37,7 +37,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .photo__travel{
+    .travel{
         grid-template-columns: repeat(1, 288px);
         grid-template-rows: repeat(12, 216px);
         grid-gap: 12px;
