@@ -4,7 +4,7 @@
     height: 740px;
     background-image: url(../../../sprint-3-images/cover-trains.jpg);
     background-size:cover;
-    background-position: center ;
+    background-position: center;
     position: relative;
     flex-direction: column;
 }
