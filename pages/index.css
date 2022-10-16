@@ -19,7 +19,6 @@
 @import url(../blocks/list/__item/list__item.css);
 @import url(../blocks/selected-word/selected-word.css);
 @import url(../blocks/travel/travel.css);
-@import url(../blocks/travel/__cell/travel__cell.css);
 @import url(../blocks/travel/__image/travel__image.css);
 @import url(../blocks/location/location.css);
 @import url(../blocks/places/places.css);
@@ -43,4 +42,4 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__authors/footer__authors.css);
-@import url(../blocks/travel/__grid/travel__grid.css);
+@import url(../blocks/photo/__grid/photo__grid.css);
