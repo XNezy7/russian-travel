@@ -1,0 +1,30 @@
+.travel__grid{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 92px;
+}
+
+
+@media screen and (max-width: 1280px) {
+   .travel__grid{
+    margin-top: 92px;
+   } 
+}
+
+@media screen and (max-width: 1024px) {
+    .travel__grid{
+     margin-top: 92px;
+    } 
+ }
+
+ @media screen and (max-width: 768px) {
+    .travel__grid{
+     margin-top: 88px;
+    } 
+ }
+
+ @media screen and (max-width: 320px) {
+    .travel__grid{
+     margin-top: 64px;
+    } 
+ }
