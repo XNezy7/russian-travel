@@ -1,4 +1,4 @@
-.cover__overley{
+.cover__overley {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -8,8 +8,12 @@
     background-color: #2A2C2F;
     transition: 1s linear;
     opacity: 0.3;
-    /* width: 100%; тут не надо */
 }
-    .cover__overley:hover{
-    opacity: 0.8;    
+
+.cover__overley:hover {
+    opacity: 0.8;
+}
+
+.cover__overley:hover::before {
+    opacity: 0.8;
 }

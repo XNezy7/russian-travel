@@ -1,5 +1,4 @@
 .page {
-    background-color:#2a2c2f;
     display: flex;
     flex-direction: column;
     /* width: 100%; */
@@ -12,7 +11,11 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
 }
+
 /* 
 @media screen and (max-width: 1280px) {
     .page {

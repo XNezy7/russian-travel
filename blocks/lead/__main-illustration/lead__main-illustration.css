@@ -1,6 +1,6 @@
 .lead__main-illustration {
-    width: 984px;
-    height: 615px;
+    max-width: 984px;
+    max-height: 615px;
     margin-bottom: 8px;
 }
 
@@ -10,8 +10,9 @@
         height: 615px;
     }
 }
+
 @media screen and (max-width: 1024px) {
-    .lead__main-illustration{
+    .lead__main-illustration {
         width: 928px;
         height: 580px;
     }
@@ -23,9 +24,28 @@
         height: 480px;
     }
 }
+
 @media screen and (max-width: 320px) {
-    .lead__main-illustration{
+    .lead__main-illustration {
         width: 320px;
         height: 200px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 974px) {
+    .lead__main-illustration{
+        min-width: 769px;
+        max-width: 974px;
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    .lead__main-illustration{
+        max-width: 767px;
+        min-width: 321px;
+        height: auto;
+        width: 100%;
     }
 }

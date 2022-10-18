@@ -1,4 +1,14 @@
 .header__link {
     color: #fff;
     text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+}
+
+.header__link:hover{
+    opacity: 0.8;
 }

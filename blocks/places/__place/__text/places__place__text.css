@@ -1,0 +1,27 @@
+.places__place__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    /* or 29px */
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: start;
+    margin-bottom: 26px;
+}
+
+@media screen and (max-width: 768px) {
+    .places__place__text {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__place__text {
+        font-size: 16px;
+        margin-left: 16px;
+        margin-bottom: 25px;
+    }
+}

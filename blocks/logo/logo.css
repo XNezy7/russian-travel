@@ -1,6 +1,14 @@
-.logo{
+.logo {
     width: 176px;
     height: 52px;
-    background-image: url(../../sprint-3-images/header-logo.svg);
+    background-image: url(../../images/header-logo.svg);
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 320px) {
+    .logo {
+        max-width: 142px;
+        max-height: 42px;
+        background-size: cover;
+    }
 }

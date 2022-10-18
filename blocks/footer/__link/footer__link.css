@@ -1,4 +1,4 @@
-.footer__link{
+.footer__link {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -6,17 +6,28 @@
     line-height: 18px;
     color: #FFFFFF;
     text-decoration: none;
-    margin-right: 18px;
+    margin-right: 0;
+    grid-gap: 18px;
+}
+.footer__link:hover{
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {
-   .footer__link{
-    display: flex;
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 24px;
-margin-bottom: 32px;
-   } 
+    .footer__link {
+        display: flex;
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 32px;
+    }
 }
+
+@media screen and (min-width: 321px) and (max-width: 719px) {
+    .footer__link{
+        display: flex;
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 32px;
+    }
+}
+

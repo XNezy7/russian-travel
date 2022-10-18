@@ -1,4 +1,29 @@
-.intro{
-    display: flex;
+.intro {
+    display: grid;
     flex-direction: column;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-bottom: 92px;
+}
+@media screen and (min-width: 1280px) {
+    .intro{
+        margin-left: 148px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .intro{
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro{
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 64px;
+    }
 }

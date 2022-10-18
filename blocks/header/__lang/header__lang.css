@@ -1,5 +1,6 @@
-.lang {
+.header__lang {
     display: flex;
     gap: 18px;
     color: #fff;
+    align-self: flex-end;
 }
