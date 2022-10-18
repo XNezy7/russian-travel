@@ -14,7 +14,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__item/list__item.css);
+@import url(../blocks/intro/__item/intro__item.css);
 @import url(../blocks/selected-word/selected-word.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__place/places__place.css);
