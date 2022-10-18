@@ -27,11 +27,12 @@
         column-gap: 28px;
     }
 }
-@media screen and (min-width: 720px) and (max-width: 974px) {
+@media screen and (min-width: 769px) and (max-width: 974px) {
     .places__place {
         grid-template-columns: repeat(2, 340px);
         margin-left: 24px;
         margin-right: 24px;
+        column-gap: 28px;
     }
 }
 
@@ -50,7 +51,7 @@
 }
 
 
-@media screen and (min-width: 321px) and (max-width: 719px) {
+@media screen and (min-width: 321px) and (max-width: 767px) {
     .places__place {
         grid-template-columns: repeat(auto-fit, minmax(321px, 719px));
         grid-template-areas:

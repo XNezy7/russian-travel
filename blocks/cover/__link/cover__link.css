@@ -38,10 +38,9 @@
         min-height: 200px;
     }
 }
-@media screen and (min-width: 720px) and (max-width: 974px) {
+@media screen and (min-width: 769px) and (max-width: 974px) {
     .cover__link{
         min-height: 480px;
-        max-height: 740px;
         margin-left: 0;
         margin-right: 0;
         justify-content: flex-start;
@@ -49,9 +48,8 @@
 }
 
 
-@media screen and (min-width: 321px) and (max-width: 719px) {
-    .cover__link {
-        min-width: auto;
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    .cover__link { 
         min-height: 320px;
         object-fit: cover;
     }

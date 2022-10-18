@@ -11,6 +11,14 @@
     }
 }
 
+@media screen and (min-width: 769px) and (max-width: 974px) {
+    .intro{
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 64px;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     .intro{
@@ -19,6 +27,7 @@
         margin-bottom: 88px;
     }
 }
+
 
 @media screen and (max-width: 320px) {
     .intro{

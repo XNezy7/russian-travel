@@ -1,4 +1,4 @@
-.places__place__title {
+.place__title {
     display: grid;
     font-family: 'Inter';
     font-style: normal;
@@ -13,13 +13,23 @@
     margin-top: 80px;
 }
 @media screen and (max-width: 1024px) {
-    .places__place__title{
+    .place__title{
         max-width: 440px;
     }
 }
 
+@media screen and (min-width: 769px) and (max-width: 974px) {
+    .place__title {
+        max-width: 340px;
+        font-size: 42px;
+        line-height: 46px;
+        margin-top: 88px;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
-    .places__place__title {
+    .place__title {
         font-size: 42px;
         line-height: 46px;
         margin-top: 88px;
@@ -27,8 +37,19 @@
     }
 }
 
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-top: 25px;
+        margin-bottom: 16px;
+        max-width: 288px;
+    }
+}
+
+
 @media screen and (max-width: 320px) {
-    .places__place__title {
+    .place__title {
         font-size: 32px;
         line-height: 35px;
         margin-left: 16px;

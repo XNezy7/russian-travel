@@ -1,4 +1,4 @@
-.places__place__text {
+.place__text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -10,15 +10,32 @@
     margin-bottom: 26px;
 }
 
-@media screen and (max-width: 768px) {
-    .places__place__text {
+@media screen and (min-width: 769px) and (max-width: 974px) {
+    .place__text {
         font-size: 16px;
         margin-bottom: 25px;
     }
 }
 
+
+
+@media screen and (max-width: 768px) {
+    .place__text {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    .place__text {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+}
+
+
 @media screen and (max-width: 320px) {
-    .places__place__text {
+    .place__text {
         font-size: 16px;
         margin-left: 16px;
         margin-bottom: 25px;

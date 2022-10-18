@@ -9,9 +9,26 @@
     text-align: left;
 }
 
+
+@media screen and (min-width: 769px) and (max-width: 974px) {
+    .intro__title {
+        margin-top: 88px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .intro__title {
         margin-top: 88px;
+    }
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-top: 64px;
+        max-width: 288px;
     }
 }
 

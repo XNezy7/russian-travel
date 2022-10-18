@@ -1,4 +1,4 @@
-.places__place__button {
+.place__button {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -13,6 +13,6 @@
     text-align: start;
 }
 
-.places__place__button:hover{
+.place__button:hover{
     opacity: 0.8;
 }
