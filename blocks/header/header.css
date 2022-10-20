@@ -6,31 +6,15 @@
     margin-right: 48px;
 }
 
-
-@media screen and (min-width: 769px) and (max-width: 974px) {
+@media screen and (max-width: 974px) {
     .header{
         margin-left: 24px;
         margin-right: 24px;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .header {
-        margin-left: 24px;
-        margin-right: 24px;
-    }
-}
-
-@media screen and (min-width: 321px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .header{
-        margin-left: 16px;
-        margin-right: 16px;
-        margin-top: 16px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .header {
         margin-left: 16px;
         margin-right: 16px;
         margin-top: 16px;

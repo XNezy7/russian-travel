@@ -4,13 +4,6 @@
     margin-bottom: 8px;
 }
 
-@media screen and (max-width: 1280px) {
-    .lead__main-illustration {
-        width: 984px;
-        height: 615px;
-    }
-}
-
 @media screen and (max-width: 1024px) {
     .lead__main-illustration {
         width: 928px;
@@ -18,20 +11,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .lead__main-illustration {
-        width: 768px;
-        height: 480px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead__main-illustration {
-        width: 320px;
-        height: 200px;
-    }
-}
-@media screen and (min-width: 769px) and (max-width: 974px) {
+@media screen and (max-width: 974px) {
     .lead__main-illustration{
         min-width: 769px;
         max-width: 974px;
@@ -40,8 +20,7 @@
     }
 }
 
-
-@media screen and (min-width: 321px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .lead__main-illustration{
         max-width: 767px;
         min-width: 321px;

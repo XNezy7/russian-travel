@@ -1,5 +1,5 @@
 .places__url {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -8,11 +8,12 @@
     grid-area: url;
     color: #AAAAAA;
     text-align: start;
+    text-transform:capitalize;
+    margin: 0 0 12px 0;
 }
-
-
-@media screen and (max-width: 320px) {
+/* 
+@media screen and (max-width: 767px) {
     .places__url {
         margin-top: 0;
     }
-}
+} */

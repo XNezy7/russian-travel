@@ -1,10 +1,7 @@
 .page {
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
     color: #fff;
-    /* padding-left: 48px;
-    padding-right: 48px; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
@@ -15,30 +12,3 @@
     margin-right: auto;
     max-width: 1280px;
 }
-
-/* 
-@media screen and (max-width: 1280px) {
-    .page {
-        padding-left: 48px;
-        padding-right: 48px;
-    }
-}
-@media screen and (max-width: 1024px) {
-    .page{
-        padding-left: 48px;
-        padding-right: 48px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .page {
-        padding-left: 24px;
-        padding-right: 24px;
-    }
-}
-@media  screen and (max-width: 320px) {
-    .page{
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-} */

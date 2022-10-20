@@ -1,26 +1,17 @@
 .intro {
     display: grid;
     flex-direction: column;
-    margin-left: 48px;
-    margin-right: 48px;
+    margin-left: 148px;
     margin-bottom: 92px;
 }
-@media screen and (min-width: 1280px) {
+
+@media screen and (max-width: 1024px) {
     .intro{
-        margin-left: 148px;
+        margin-left: 48px;
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 974px) {
-    .intro{
-        margin-left: 24px;
-        margin-right: 24px;
-        margin-bottom: 64px;
-    }
-}
-
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 974px) {
     .intro{
         margin-left: 24px;
         margin-right: 24px;
@@ -28,8 +19,7 @@
     }
 }
 
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px){
     .intro{
         margin-left: 16px;
         margin-right: 16px;
