@@ -8,12 +8,13 @@
     text-decoration: none;
     grid-gap: 18px;
 }
-.footer__link:hover{
+
+.footer__link:hover {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
-    .footer__link{
+    .footer__link {
         display: flex;
         font-size: 24px;
         line-height: 24px;

@@ -9,14 +9,15 @@
     text-align: left;
     margin: 0 0 0 148px;
 }
+
 @media screen and (max-width: 1024px) {
-    .lead__caption{
+    .lead__caption {
         margin-left: 48px;
     }
 }
 
 @media screen and (max-width: 974px) {
-    .lead__caption{
+    .lead__caption {
         margin-left: 24px;
     }
 }

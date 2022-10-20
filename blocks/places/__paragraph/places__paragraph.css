@@ -3,17 +3,16 @@
     display: flex;
     flex-direction: column;
     gap: 26px;
-    word-break:normal;
 }
 
 @media screen and (max-width: 974px) {
-    .places__paragraph{
-        grid-area: 25px;
+    .places__paragraph {
+        gap: 25px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .places__paragraph{
+    .places__paragraph {
         width: 100%;
     }
 }

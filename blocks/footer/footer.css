@@ -3,8 +3,17 @@
     justify-content: space-between;
     margin: 92px 48px 24px;
 }
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        margin-right: 96px;
+        margin-left: 96px;
+    }
+}
+
+
 @media screen and (max-width: 974px) {
-    .footer{
+    .footer {
         margin-left: 24px;
         margin-right: 24px;
         margin-top: 88px;
@@ -12,7 +21,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .footer{
+    .footer {
         margin-left: 16px;
         margin-right: 16px;
         flex-direction: column;

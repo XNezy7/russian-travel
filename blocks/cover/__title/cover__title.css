@@ -11,29 +11,8 @@
     margin: 0 auto 32px;
 }
 
-
-
-@media screen and (max-width: 1280px) {
-    .cover__title {
-        margin-bottom: 32px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .cover__title {
-        margin-bottom: 32px;
-    }
-}
-
-@media screen and (max-width: 974px) {
-    .cover__title {
-        margin-bottom: 32px;
-    }
-}
-
 @media screen and (max-width: 568px) {
     .cover__title {
-        margin-top: 33px;
         margin-bottom: 16px;
         font-size: 32px;
         line-height: 35px;

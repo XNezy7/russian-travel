@@ -35,14 +35,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .places__item{
+    .places__item {
         grid-template-columns: repeat(1, 320px);
-        grid-template-areas:
-            "title"
-            "website"
-            "image"
-            "text";
-        row-gap: 12px;
     }
 }
-

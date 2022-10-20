@@ -9,12 +9,12 @@
     text-align: right;
 }
 
-.header__link:hover{
+.header__link:hover {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 787px) {
-    .header__link{
+    .header__link {
         font-size: 18px;
         line-height: 20px;
     }

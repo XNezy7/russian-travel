@@ -25,14 +25,14 @@
     bottom: 0;
     left: 0;
     z-index: 0;
-} 
+}
 
 .cover__link:hover::after {
     opacity: .8;
 }
 
-@media screen and (max-width: 1280px) {
-    .cover__link{
+@media screen and (min-width: 1280px) {
+    .cover__link {
         margin-left: 48px;
         margin-right: 48px;
     }
@@ -45,16 +45,14 @@
 }
 
 @media screen and (max-width: 974px) {
-    .cover__link{
+    .cover__link {
         min-height: 480px;
-        justify-content: flex-start;
         margin: 0;
     }
 }
 
 @media screen and (max-width: 568px) {
-    .cover__link { 
+    .cover__link {
         min-height: 200px;
     }
 }
-

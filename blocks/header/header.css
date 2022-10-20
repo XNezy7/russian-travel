@@ -7,14 +7,14 @@
 }
 
 @media screen and (max-width: 974px) {
-    .header{
+    .header {
         margin-left: 24px;
         margin-right: 24px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .header{
+    .header {
         margin-left: 16px;
         margin-right: 16px;
         margin-top: 16px;
