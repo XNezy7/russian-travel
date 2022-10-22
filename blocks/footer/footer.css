@@ -4,14 +4,6 @@
     margin: 92px 48px 24px;
 }
 
-@media screen and (min-width: 1280px) {
-    .footer {
-        margin-right: 96px;
-        margin-left: 96px;
-    }
-}
-
-
 @media screen and (max-width: 974px) {
     .footer {
         margin-left: 24px;
